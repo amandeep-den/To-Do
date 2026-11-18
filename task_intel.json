@@ -1,0 +1,551 @@
+{
+  "buckets": [
+    {
+      "avg_diff": -2.235,
+      "avg_dur": 1.958,
+      "avg_lead": 3.769,
+      "avg_shift": 0.205,
+      "delayed_rate": 0.007,
+      "key": "3-4",
+      "max": 4,
+      "min": 3,
+      "n": 429
+    },
+    {
+      "avg_diff": -1.223,
+      "avg_dur": 5.259,
+      "avg_lead": 6.043,
+      "avg_shift": 0.436,
+      "delayed_rate": 0.1298,
+      "key": "5-7",
+      "max": 7,
+      "min": 5,
+      "n": 1603
+    },
+    {
+      "avg_diff": -0.119,
+      "avg_dur": 9.673,
+      "avg_lead": 8.896,
+      "avg_shift": 0.896,
+      "delayed_rate": 0.3109,
+      "key": "8-10",
+      "max": 10,
+      "min": 8,
+      "n": 1235
+    },
+    {
+      "avg_diff": 0.783,
+      "avg_dur": 15.346,
+      "avg_lead": 12.399,
+      "avg_shift": 2.164,
+      "delayed_rate": 0.5665,
+      "key": "11-14",
+      "max": 14,
+      "min": 11,
+      "n": 978
+    },
+    {
+      "avg_diff": 2.041,
+      "avg_dur": 23.162,
+      "avg_lead": 17.058,
+      "avg_shift": 4.062,
+      "delayed_rate": 0.8927,
+      "key": "15-21",
+      "max": 21,
+      "min": 15,
+      "n": 755
+    }
+  ],
+  "categories": {
+    "Data Engineering & AI": {
+      "avg_diff": -0.311,
+      "avg_dur": 10.502,
+      "avg_lead": 9.377,
+      "avg_shift": 1.419,
+      "delayed_rate": 0.3175,
+      "n": 652
+    },
+    "DevOps & Infrastructure": {
+      "avg_diff": -0.144,
+      "avg_dur": 10.723,
+      "avg_lead": 9.499,
+      "avg_shift": 1.348,
+      "delayed_rate": 0.3725,
+      "n": 647
+    },
+    "Finance & Compliance": {
+      "avg_diff": -0.106,
+      "avg_dur": 10.863,
+      "avg_lead": 9.498,
+      "avg_shift": 1.45,
+      "delayed_rate": 0.3656,
+      "n": 640
+    },
+    "Marketing & Content": {
+      "avg_diff": -0.119,
+      "avg_dur": 11.007,
+      "avg_lead": 9.535,
+      "avg_shift": 1.569,
+      "delayed_rate": 0.368,
+      "n": 606
+    },
+    "Operations": {
+      "avg_diff": -0.131,
+      "avg_dur": 10.621,
+      "avg_lead": 9.43,
+      "avg_shift": 1.299,
+      "delayed_rate": 0.3673,
+      "n": 618
+    },
+    "Product Design": {
+      "avg_diff": -0.094,
+      "avg_dur": 10.717,
+      "avg_lead": 9.345,
+      "avg_shift": 1.451,
+      "delayed_rate": 0.3785,
+      "n": 605
+    },
+    "Quality Assurance": {
+      "avg_diff": -0.16,
+      "avg_dur": 10.812,
+      "avg_lead": 9.468,
+      "avg_shift": 1.485,
+      "delayed_rate": 0.3638,
+      "n": 613
+    },
+    "Software Engineering": {
+      "avg_diff": -0.141,
+      "avg_dur": 10.708,
+      "avg_lead": 9.519,
+      "avg_shift": 1.309,
+      "delayed_rate": 0.3861,
+      "n": 619
+    }
+  },
+  "cells": {
+    "11-14|High": {
+      "avg_diff": 0.156,
+      "avg_dur": 15.09,
+      "avg_lead": 12.488,
+      "avg_shift": 2.445,
+      "delayed_rate": 0.3507,
+      "n": 211
+    },
+    "11-14|Low": {
+      "avg_diff": 2.054,
+      "avg_dur": 16.833,
+      "avg_lead": 12.516,
+      "avg_shift": 2.264,
+      "delayed_rate": 0.9302,
+      "n": 258
+    },
+    "11-14|Medium": {
+      "avg_diff": 0.564,
+      "avg_dur": 14.905,
+      "avg_lead": 12.321,
+      "avg_shift": 2.02,
+      "delayed_rate": 0.535,
+      "n": 443
+    },
+    "11-14|Urgent": {
+      "avg_diff": -0.712,
+      "avg_dur": 13.303,
+      "avg_lead": 12.182,
+      "avg_shift": 1.833,
+      "delayed_rate": 0.0455,
+      "n": 66
+    },
+    "15-21|High": {
+      "avg_diff": 0.597,
+      "avg_dur": 19.403,
+      "avg_lead": 15.161,
+      "avg_shift": 3.645,
+      "delayed_rate": 0.5323,
+      "n": 62
+    },
+    "15-21|Low": {
+      "avg_diff": 2.991,
+      "avg_dur": 25.614,
+      "avg_lead": 18.102,
+      "avg_shift": 4.521,
+      "delayed_rate": 1.0,
+      "n": 332
+    },
+    "15-21|Medium": {
+      "avg_diff": 1.416,
+      "avg_dur": 21.551,
+      "avg_lead": 16.424,
+      "avg_shift": 3.712,
+      "delayed_rate": 0.856,
+      "n": 361
+    },
+    "3-4|High": {
+      "avg_diff": -2.814,
+      "avg_dur": 1.443,
+      "avg_lead": 3.679,
+      "avg_shift": 0.257,
+      "delayed_rate": 0.0,
+      "n": 140
+    },
+    "3-4|Low": {
+      "avg_diff": -0.426,
+      "avg_dur": 3.957,
+      "avg_lead": 4.0,
+      "avg_shift": 0.383,
+      "delayed_rate": 0.0638,
+      "n": 47
+    },
+    "3-4|Medium": {
+      "avg_diff": -1.979,
+      "avg_dur": 2.058,
+      "avg_lead": 3.82,
+      "avg_shift": 0.159,
+      "delayed_rate": 0.0,
+      "n": 189
+    },
+    "3-4|Urgent": {
+      "avg_diff": -3.226,
+      "avg_dur": 1.189,
+      "avg_lead": 3.623,
+      "avg_shift": 0.075,
+      "delayed_rate": 0.0,
+      "n": 53
+    },
+    "5-7|High": {
+      "avg_diff": -1.891,
+      "avg_dur": 4.385,
+      "avg_lead": 5.901,
+      "avg_shift": 0.374,
+      "delayed_rate": 0.0236,
+      "n": 423
+    },
+    "5-7|Low": {
+      "avg_diff": 0.446,
+      "avg_dur": 7.111,
+      "avg_lead": 6.194,
+      "avg_shift": 0.471,
+      "delayed_rate": 0.4464,
+      "n": 289
+    },
+    "5-7|Medium": {
+      "avg_diff": -1.137,
+      "avg_dur": 5.479,
+      "avg_lead": 6.126,
+      "avg_shift": 0.49,
+      "delayed_rate": 0.0956,
+      "n": 722
+    },
+    "5-7|Urgent": {
+      "avg_diff": -2.769,
+      "avg_dur": 3.337,
+      "avg_lead": 5.787,
+      "avg_shift": 0.302,
+      "delayed_rate": 0.0,
+      "n": 169
+    },
+    "8-10|High": {
+      "avg_diff": -0.763,
+      "avg_dur": 9.367,
+      "avg_lead": 9.0,
+      "avg_shift": 1.131,
+      "delayed_rate": 0.098,
+      "n": 245
+    },
+    "8-10|Low": {
+      "avg_diff": 1.089,
+      "avg_dur": 10.948,
+      "avg_lead": 8.88,
+      "avg_shift": 0.979,
+      "delayed_rate": 0.681,
+      "n": 326
+    },
+    "8-10|Medium": {
+      "avg_diff": -0.258,
+      "avg_dur": 9.342,
+      "avg_lead": 8.854,
+      "avg_shift": 0.747,
+      "delayed_rate": 0.246,
+      "n": 561
+    },
+    "8-10|Urgent": {
+      "avg_diff": -1.65,
+      "avg_dur": 8.165,
+      "avg_lead": 8.922,
+      "avg_shift": 0.893,
+      "delayed_rate": 0.0,
+      "n": 103
+    }
+  },
+  "date_range": {
+    "end": "2026-02-02",
+    "start": "2025-01-01"
+  },
+  "lead_max": 21,
+  "lead_min": 3,
+  "notes": [
+    "Probabilities are the share of tasks that were not delayed.",
+    "Lead days are calendar days between creation and the original deadline.",
+    "Shift days are calendar days the deadline moved.",
+    "Extra days are days past the revised deadline when a task was delayed."
+  ],
+  "overall": {
+    "avg_diff": -0.152,
+    "avg_dur": 10.742,
+    "avg_lead": 9.459,
+    "avg_shift": 1.415,
+    "delayed_rate": 0.3646,
+    "n": 5000
+  },
+  "priorities": {
+    "High": {
+      "avg_diff": -1.213,
+      "avg_dur": 8.084,
+      "avg_lead": 8.132,
+      "avg_shift": 1.122,
+      "delayed_rate": 0.1304,
+      "n": 1081
+    },
+    "Low": {
+      "avg_diff": 1.587,
+      "avg_dur": 14.902,
+      "avg_lead": 11.272,
+      "avg_shift": 2.043,
+      "delayed_rate": 0.7396,
+      "n": 1252
+    },
+    "Medium": {
+      "avg_diff": -0.254,
+      "avg_dur": 10.531,
+      "avg_lead": 9.446,
+      "avg_shift": 1.335,
+      "delayed_rate": 0.3308,
+      "n": 2276
+    },
+    "Urgent": {
+      "avg_diff": -2.189,
+      "avg_dur": 6.0,
+      "avg_lead": 7.399,
+      "avg_shift": 0.685,
+      "delayed_rate": 0.0077,
+      "n": 391
+    }
+  },
+  "reason_priority": {
+    "Client Feedback Delay|High": {
+      "avg_diff": -1.035,
+      "avg_dur": 12.614,
+      "avg_lead": 9.439,
+      "avg_shift": 4.211,
+      "delayed_rate": 0.1053,
+      "n": 57
+    },
+    "Client Feedback Delay|Low": {
+      "avg_diff": 1.925,
+      "avg_dur": 21.57,
+      "avg_lead": 13.323,
+      "avg_shift": 6.323,
+      "delayed_rate": 0.8387,
+      "n": 93
+    },
+    "Client Feedback Delay|Medium": {
+      "avg_diff": 0.267,
+      "avg_dur": 17.595,
+      "avg_lead": 11.957,
+      "avg_shift": 5.371,
+      "delayed_rate": 0.4741,
+      "n": 116
+    },
+    "Client Feedback Delay|Urgent": {
+      "avg_diff": -1.778,
+      "avg_dur": 11.0,
+      "avg_lead": 8.722,
+      "avg_shift": 4.0,
+      "delayed_rate": 0.0,
+      "n": 18
+    },
+    "Dependency Block|High": {
+      "avg_diff": -0.904,
+      "avg_dur": 13.519,
+      "avg_lead": 9.904,
+      "avg_shift": 4.519,
+      "delayed_rate": 0.0769,
+      "n": 52
+    },
+    "Dependency Block|Low": {
+      "avg_diff": 1.714,
+      "avg_dur": 19.805,
+      "avg_lead": 12.623,
+      "avg_shift": 5.468,
+      "delayed_rate": 0.7922,
+      "n": 77
+    },
+    "Dependency Block|Medium": {
+      "avg_diff": -0.018,
+      "avg_dur": 16.541,
+      "avg_lead": 11.333,
+      "avg_shift": 5.225,
+      "delayed_rate": 0.4234,
+      "n": 111
+    },
+    "Dependency Block|Urgent": {
+      "avg_diff": -1.857,
+      "avg_dur": 11.714,
+      "avg_lead": 9.286,
+      "avg_shift": 4.286,
+      "delayed_rate": 0.0,
+      "n": 14
+    },
+    "Resource Reallocation|High": {
+      "avg_diff": -0.591,
+      "avg_dur": 14.614,
+      "avg_lead": 10.545,
+      "avg_shift": 4.659,
+      "delayed_rate": 0.2727,
+      "n": 44
+    },
+    "Resource Reallocation|Low": {
+      "avg_diff": 1.932,
+      "avg_dur": 22.301,
+      "avg_lead": 13.89,
+      "avg_shift": 6.479,
+      "delayed_rate": 0.8219,
+      "n": 73
+    },
+    "Resource Reallocation|Medium": {
+      "avg_diff": -0.108,
+      "avg_dur": 15.901,
+      "avg_lead": 11.045,
+      "avg_shift": 4.964,
+      "delayed_rate": 0.3333,
+      "n": 111
+    },
+    "Resource Reallocation|Urgent": {
+      "avg_diff": -2.1,
+      "avg_dur": 11.1,
+      "avg_lead": 8.7,
+      "avg_shift": 4.5,
+      "delayed_rate": 0.0,
+      "n": 10
+    },
+    "Scope Expansion|High": {
+      "avg_diff": -1.05,
+      "avg_dur": 13.217,
+      "avg_lead": 9.783,
+      "avg_shift": 4.483,
+      "delayed_rate": 0.1,
+      "n": 60
+    },
+    "Scope Expansion|Low": {
+      "avg_diff": 1.956,
+      "avg_dur": 21.967,
+      "avg_lead": 13.846,
+      "avg_shift": 6.165,
+      "delayed_rate": 0.8242,
+      "n": 91
+    },
+    "Scope Expansion|Medium": {
+      "avg_diff": 0.242,
+      "avg_dur": 17.333,
+      "avg_lead": 11.864,
+      "avg_shift": 5.227,
+      "delayed_rate": 0.4773,
+      "n": 132
+    },
+    "Scope Expansion|Urgent": {
+      "avg_diff": -1.615,
+      "avg_dur": 12.077,
+      "avg_lead": 9.308,
+      "avg_shift": 4.385,
+      "delayed_rate": 0.0,
+      "n": 13
+    },
+    "Technical Roadblock|High": {
+      "avg_diff": -0.411,
+      "avg_dur": 15.196,
+      "avg_lead": 10.893,
+      "avg_shift": 4.714,
+      "delayed_rate": 0.25,
+      "n": 56
+    },
+    "Technical Roadblock|Low": {
+      "avg_diff": 1.952,
+      "avg_dur": 21.333,
+      "avg_lead": 13.25,
+      "avg_shift": 6.131,
+      "delayed_rate": 0.8571,
+      "n": 84
+    },
+    "Technical Roadblock|Medium": {
+      "avg_diff": 0.164,
+      "avg_dur": 16.802,
+      "avg_lead": 11.517,
+      "avg_shift": 5.121,
+      "delayed_rate": 0.4397,
+      "n": 116
+    },
+    "Technical Roadblock|Urgent": {
+      "avg_diff": -2.667,
+      "avg_dur": 9.444,
+      "avg_lead": 8.222,
+      "avg_shift": 3.778,
+      "delayed_rate": 0.0,
+      "n": 9
+    }
+  },
+  "reasons": {
+    "Client Feedback Delay": {
+      "avg_actual_when_delayed": 23.05,
+      "avg_dur": 17.479,
+      "avg_extra_when_delayed": 2.022,
+      "avg_lead": 11.694,
+      "avg_shift": 5.363,
+      "delayed_rate": 0.4894,
+      "max_extra": 5.0,
+      "n": 284
+    },
+    "Dependency Block": {
+      "avg_actual_when_delayed": 22.143,
+      "avg_dur": 16.646,
+      "avg_extra_when_delayed": 1.857,
+      "avg_lead": 11.319,
+      "avg_shift": 5.102,
+      "delayed_rate": 0.4409,
+      "max_extra": 4.0,
+      "n": 254
+    },
+    "Resource Reallocation": {
+      "avg_actual_when_delayed": 23.229,
+      "avg_dur": 17.424,
+      "avg_extra_when_delayed": 1.963,
+      "avg_lead": 11.727,
+      "avg_shift": 5.353,
+      "delayed_rate": 0.458,
+      "max_extra": 4.0,
+      "n": 238
+    },
+    "Scope Expansion": {
+      "avg_actual_when_delayed": 23.375,
+      "avg_dur": 17.693,
+      "avg_extra_when_delayed": 1.972,
+      "avg_lead": 11.939,
+      "avg_shift": 5.328,
+      "delayed_rate": 0.4865,
+      "max_extra": 5.0,
+      "n": 296
+    },
+    "Technical Roadblock": {
+      "avg_actual_when_delayed": 22.372,
+      "avg_dur": 17.649,
+      "avg_extra_when_delayed": 1.869,
+      "avg_lead": 11.823,
+      "avg_shift": 5.309,
+      "delayed_rate": 0.517,
+      "max_extra": 5.0,
+      "n": 265
+    }
+  },
+  "sample_size": 5000,
+  "source": "To-Do List DataSet.xlsx",
+  "version": 1,
+  "year": 2025
+}

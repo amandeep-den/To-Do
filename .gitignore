@@ -1,0 +1,3 @@
+taskly.db
+__pycache__/
+*.pyc
